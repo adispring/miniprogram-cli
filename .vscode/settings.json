@@ -1,0 +1,35 @@
+{
+  // 文件换行符
+  "files.eol": "\n",
+
+  // 1tab转化为2空格
+  "editor.tabSize": 2,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wrappingIndent": "indent", // 换行缩进
+
+  // 移动文件时，更新引用放的路径
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // eslint检查文件类型
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+
+  "editor.codeActionsOnSave": {
+    // eslint插件的自动fix，开启
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  "files.associations": {
+    // 小程序文件类型处理
+    "*.wxss": "css",
+    "*.wxml": "html",
+    "*.wxs": "javascript"
+  },
+
+  "emmet.includeLanguages": {
+    // 小程序标签提示
+    "wxml": "html"
+  }
+}
