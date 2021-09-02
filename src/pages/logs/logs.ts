@@ -1,6 +1,5 @@
 // logs.ts
 // const util = require('../../utils/util.js')
-// eslint-disable-next-line import/no-unresolved
 import { formatTime } from '@/utils/util';
 
 Page({

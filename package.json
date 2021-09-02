@@ -14,14 +14,13 @@
   "license": "",
   "dependencies": {
     "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0"
+    "@babel/preset-env": "^7.15.0",
+    "eslint-import-resolver-alias": "^1.1.2"
   },
   "devDependencies": {
     "@babel/plugin-transform-typescript": "^7.15.0",
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
-    "@qcsfe/eslint-config-dache": "^1.1.15",
-    "@qcsfe/eslint-plugin-qcslint": "^0.0.14",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "babel-plugin-module-resolver": "^4.1.0",
