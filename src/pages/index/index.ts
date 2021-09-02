@@ -18,7 +18,7 @@ Page({
     });
   },
   onLoad() {
-    console.log('onLoad');
+    console.log('onLoad1');
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     if (wx.getUserProfile) {

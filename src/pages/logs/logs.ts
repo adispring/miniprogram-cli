@@ -1,6 +1,7 @@
 // logs.ts
 // const util = require('../../utils/util.js')
-import { formatTime } from '../../utils/util'
+// eslint-disable-next-line import/no-unresolved
+import { formatTime } from '@/utils/util';
 
 Page({
   data: {
@@ -11,9 +12,9 @@ Page({
       logs: (wx.getStorageSync('logs') || []).map((log: string) => {
         return {
           date: formatTime(new Date(log)),
-          timeStamp: log
-        }
+          timeStamp: log,
+        };
       }),
-    })
+    });
   },
-})
+});
