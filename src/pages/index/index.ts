@@ -18,7 +18,12 @@ Page({
     });
   },
   onLoad() {
-    console.log('onLoad');
+    console.log('onLoad1');
+    const a = this.data?.canIUse ?? false;
+    let b = undefined;
+    b &&= a;
+    console.log(b);
+    console.log('canIUse', a);
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     if (wx.getUserProfile) {

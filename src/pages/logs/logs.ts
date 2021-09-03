@@ -2,6 +2,8 @@
 // const util = require('../../utils/util.js')
 import { formatTime } from '@/utils/util';
 
+console.log('logs');
+
 Page({
   data: {
     logs: [],

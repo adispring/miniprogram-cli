@@ -2341,6 +2341,16 @@ es6-weak-map@^2.0.1:
     es6-iterator "^2.0.3"
     es6-symbol "^3.1.1"
 
+esbuild-plugin-alias@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npm.taobao.org/esbuild-plugin-alias/download/esbuild-plugin-alias-0.1.2.tgz#1232fbde807c0c8ad44c44ec859819eb492e12a8"
+  integrity sha1-EjL73oB8DIrUTETshZgZ60kuEqg=
+
+esbuild@^0.12.21:
+  version "0.12.24"
+  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.12.24.tgz#21966fad25a80f368ed308101e88102bce0dc68f"
+  integrity sha1-IZZvrSWoDzaO0wgQHogQK84Nxo8=
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npm.taobao.org/escalade/download/escalade-3.1.1.tgz?cache=0&sync_timestamp=1602567261690&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescalade%2Fdownload%2Fescalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -3127,6 +3137,15 @@ gulp-cli@^2.2.0:
     semver-greatest-satisfied-range "^1.1.0"
     v8flags "^3.2.0"
     yargs "^7.1.0"
+
+gulp-esbuild@^0.8.6:
+  version "0.8.6"
+  resolved "https://registry.nlark.com/gulp-esbuild/download/gulp-esbuild-0.8.6.tgz#77b66c3cc8e2487448f638924345864975aba469"
+  integrity sha1-d7ZsPMjiSHRI9jiSQ0WGSXWrpGk=
+  dependencies:
+    esbuild "^0.12.21"
+    plugin-error "^1.0.1"
+    vinyl "^2.2.1"
 
 gulp@^4.0.2:
   version "4.0.2"
@@ -6181,7 +6200,7 @@ vinyl-sourcemaps-apply@^0.2.0:
   dependencies:
     source-map "^0.5.1"
 
-vinyl@^2.0.0:
+vinyl@^2.0.0, vinyl@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/vinyl/download/vinyl-2.2.1.tgz#23cfb8bbab5ece3803aa2c0a1eb28af7cbba1974"
   integrity sha1-I8+4u6tezjgDqiwKHrKK98u6GXQ=
